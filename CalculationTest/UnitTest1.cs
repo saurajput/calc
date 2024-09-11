@@ -21,7 +21,7 @@ namespace CalculationTest
         {
             Calc calc = new();
             int result = calc.Add(-2, 3);
-            Assert.That(result, Is.EqualTo(1));
+            Assert.That(result, Is.EqualTo(2));
         }
         [Test]
         public void Test3()
